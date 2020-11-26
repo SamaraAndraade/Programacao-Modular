@@ -1,0 +1,13 @@
+public class Funcao{ 
+   public static int divisao(int num1, int num2){
+   return (num1 / num2);
+ }
+  public static int multiplicacao(int num1, int num2){
+  return (num1 * num2);
+ } 
+
+ public static void main(String[] args) {
+    System.out.println(Funcao.divisao(100,10));
+    System.out.println(Funcao.multiplicacao( 7, 10));
+   }
+}
